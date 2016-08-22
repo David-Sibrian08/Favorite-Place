@@ -12,7 +12,7 @@
 		5C2944591D641CFD007A8E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2944571D641CFD007A8E30 /* Main.storyboard */; };
 		5C29445B1D641CFD007A8E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C29445A1D641CFD007A8E30 /* Assets.xcassets */; };
 		5C29445E1D641CFD007A8E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C29445C1D641CFD007A8E30 /* LaunchScreen.storyboard */; };
-		5C5E00C11D6B853D007EA501 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E00C01D6B853D007EA501 /* DetailsViewController.swift */; };
+		5C5E00C31D6B8C3D007EA501 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E00C21D6B8C3D007EA501 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		5C29445A1D641CFD007A8E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C29445D1D641CFD007A8E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C29445F1D641CFD007A8E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C5E00C01D6B853D007EA501 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../DetailsViewController.swift; sourceTree = "<group>"; };
+		5C5E00C21D6B8C3D007EA501 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		5C2944521D641CFD007A8E30 /* Favorite Place */ = {
 			isa = PBXGroup;
 			children = (
-				5C5E00C01D6B853D007EA501 /* DetailsViewController.swift */,
 				5C2944531D641CFD007A8E30 /* AppDelegate.swift */,
 				5C2944551D641CFD007A8E30 /* ViewController.swift */,
+				5C5E00C21D6B8C3D007EA501 /* DetailsViewController.swift */,
 				5C2944571D641CFD007A8E30 /* Main.storyboard */,
 				5C29445A1D641CFD007A8E30 /* Assets.xcassets */,
 				5C29445C1D641CFD007A8E30 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			files = (
 				5C2944561D641CFD007A8E30 /* ViewController.swift in Sources */,
 				5C2944541D641CFD007A8E30 /* AppDelegate.swift in Sources */,
-				5C5E00C11D6B853D007EA501 /* DetailsViewController.swift in Sources */,
+				5C5E00C31D6B8C3D007EA501 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
